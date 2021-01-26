@@ -24,3 +24,13 @@ body {
     position: relative;
     margin-top: 20px;
 }
+
+.pacman__eye {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 20px;
+    right: 40px;
+    background: #333333;
+}
