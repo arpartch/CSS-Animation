@@ -26,11 +26,21 @@ body {
 }
 
 .pacman__eye {
+    /* position is contected to the container it is in */
     position: absolute;
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    /* top and right are relative to the position inside the div pacman */
     top: 20px;
     right: 40px;
     background: #333333;
+}
+
+.pacman__mouth {
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
 }
